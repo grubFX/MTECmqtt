@@ -1,18 +1,12 @@
 {
     "domain": "MTEC",
-    "name": "MTEC over MQTT integration",
+    "name": "MTEC integration",
     "version": "0.0.0",
-    "after_dependencies": [
-        "mqtt"
-    ],
     "integration_type": "device",
     "iot_class": "local_polling",
     "requirements": [
         "paho-mqtt",
         "pymodbus>=3.6",
         "pyyaml"
-    ],
-    "mqtt": [
-        "MTEC"
     ]
 }

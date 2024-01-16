@@ -8,6 +8,7 @@ _LOGGER = logging.getLogger(__name__)
 
 DOMAIN = "MTEC"
 
+
 async def async_setup(hass: HomeAssistant, config: dict):
     """Set up the MTEC integration."""
     _LOGGER.info("Setting up MTEC integration")
